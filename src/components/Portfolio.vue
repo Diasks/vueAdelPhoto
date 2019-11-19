@@ -44,8 +44,8 @@ export default {
   font-family: 'Montserrat';
   border: none;
   color: grey;
-  text-shadow: white 1px 1px 5px;
-  width: 250px;
+  text-shadow: red 2px 2px 5px;
+  width: 350px;
   transition: transform .2s; /* Animation */
 }
 
@@ -55,13 +55,13 @@ export default {
 
 .backgroundImgTwo {
   font-family: 'Montserrat';
-  background-image: url('../assets/city.jpg');
+  background-image: url('../assets/rightcity.jpg');
   background-size: cover;
   font-family: 'Montserrat';
-  color: darkgrey;
+  color: black;
   border: none;
-  width: 250px;
-  text-shadow: black 1px 1px 5px;
+  width: 350px;
+  text-shadow: white 2px 2px 5px;
   transition: transform .2s; /* Animation */
 }
 
@@ -70,13 +70,13 @@ export default {
 }
 
 .backgroundImgThree {
-  background-image: url('../assets/mackro.jpg');
+  background-image: url('../assets/rightmacro.jpg');
   background-size: cover;
   font-family: 'Montserrat';
   border: none;
-  width: 250px;
-  text-shadow: black 1px 1px 5px;
-  color: darkgrey;
+  width: 350px;
+  text-shadow: grey 2px 2px 5px;
+  color: black;
   transition: transform .2s; /* Animation */
 }
 
@@ -85,13 +85,13 @@ export default {
 }
 
 .backgroundImgFour {
-  background-image: url('../assets/events.jpg');
+  background-image: url('../assets/rightevents.jpg');
   background-size: cover;
   font-family: 'Montserrat';
   border: none;
-  color: darkgrey;
-  width: 250px;
-  text-shadow: white 1px 1px 5px;
+  color: grey;
+  width: 350px;
+  text-shadow: #50d0c3 2px 2px 5px;
   transition: transform .2s; /* Animation */
 }
 

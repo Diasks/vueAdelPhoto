@@ -26,7 +26,6 @@
   img {
     width: 50px; 
     margin-right: 30px;
-    border: 1px solid pink;
   }
 
   .styledText {
