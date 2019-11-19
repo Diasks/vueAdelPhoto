@@ -36,7 +36,7 @@ body {
   line-height: 1.4;
   background-image: url('./assets/kapsel.jpg');
   height: 520px;
-  background-size: 100% 130%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 </style>
