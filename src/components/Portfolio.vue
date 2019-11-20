@@ -1,15 +1,15 @@
 <template>
   <div>
-    <b-card-group deck style="margin: 20px; text-align: right; justify-content: center;">
+    <b-card-group deck style="margin-top: 100px; text-align: right; justify-content: center;">
       <router-link to="/Fineart">
         <b-card 
-          style="max-width: 20rem; height: 200px;  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.19);"
-          title="Fine Art" class="backgroundImgOne">
+          style="max-width: 20rem; height: 250px;  box-shadow: -1px -1px 100px 6px rgba(0,0,0,1);"
+          title="Fine art" class="backgroundImgOne">
         </b-card> 
       </router-link>
       <router-link to="/City">
         <b-card
-          style="max-width: 20rem; height: 200px;  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.19);"
+          style="max-width: 20rem; height: 250px;   box-shadow: -1px -1px 100px 6px rgba(224,220,224,1);"
           title="Landskap" class="backgroundImgTwo"> 
         </b-card>
       </router-link>
@@ -17,13 +17,13 @@
     <b-card-group deck style="margin: 20px; text-align: right; justify-content: center;">
       <router-link to="/Macro">
         <b-card
-          style="max-width: 20rem; height: 200px;  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.19); "
+          style="max-width: 20rem; height: 250px;  box-shadow: -1px -1px 100px 6px rgba(97,97,97,0.76); "
           title="Macro" class="backgroundImgThree">
         </b-card>
       </router-link>
       <router-link to="Event">
         <b-card
-          style="max-width: 20rem; height: 200px;  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.19);"
+          style="max-width: 20rem; height: 250px;  box-shadow:  -1px -1px 100px 6px rgba(168,168,168,1);"
           title="Evenemang" class="backgroundImgFour"> 
         </b-card>
       </router-link>
@@ -43,9 +43,9 @@ export default {
   background-size: cover;
   font-family: 'Montserrat';
   border: none;
-  color: grey;
-  text-shadow: red 2px 2px 5px;
-  width: 350px;
+  color: black;
+ text-shadow: white 2px 2px 5px;
+  width: 450px;
   transition: transform .2s; /* Animation */
 }
 
@@ -55,12 +55,12 @@ export default {
 
 .backgroundImgTwo {
   font-family: 'Montserrat';
-  background-image: url('../assets/rightcity.jpg');
+  background-image: url('../assets/coffee.jpg');
   background-size: cover;
   font-family: 'Montserrat';
   color: black;
   border: none;
-  width: 350px;
+  width: 450px;
   text-shadow: white 2px 2px 5px;
   transition: transform .2s; /* Animation */
 }
@@ -70,13 +70,13 @@ export default {
 }
 
 .backgroundImgThree {
-  background-image: url('../assets/rightmacro.jpg');
+  background-image: url('../assets/coffee.jpg');
   background-size: cover;
   font-family: 'Montserrat';
   border: none;
-  width: 350px;
-  text-shadow: grey 2px 2px 5px;
-  color: black;
+  width: 450px;
+  text-shadow: white 2px 2px 5px;
+  color:  black;
   transition: transform .2s; /* Animation */
 }
 
@@ -85,13 +85,13 @@ export default {
 }
 
 .backgroundImgFour {
-  background-image: url('../assets/rightevents.jpg');
+  background-image: url('../assets/coffee.jpg');
   background-size: cover;
   font-family: 'Montserrat';
   border: none;
-  color: grey;
-  width: 350px;
-  text-shadow: #50d0c3 2px 2px 5px;
+  color: black;
+  width: 450px;
+ text-shadow: white 2px 2px 5px;
   transition: transform .2s; /* Animation */
 }
 
