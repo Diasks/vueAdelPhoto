@@ -34,7 +34,7 @@ body {
   max-width: 100%; 
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
-  background-image: url('./assets/kapsel.jpg');
+  background-image: url('./assets/Kapsel-web.jpg');
   height: 520px;
   background-size: cover;
   background-repeat: no-repeat;

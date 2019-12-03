@@ -3,13 +3,13 @@
     <b-card-group deck style="margin-top: 100px; text-align: right; justify-content: center;">
       <router-link to="/Fineart">
         <b-card 
-          style="max-width: 20rem; height: 250px;  box-shadow: -1px -1px 100px 6px rgba(0,0,0,1);"
+          style="max-width: 20rem; height: 250px;  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.19);"
           title="Fine art" class="backgroundImgOne">
         </b-card> 
       </router-link>
       <router-link to="/City">
         <b-card
-          style="max-width: 20rem; height: 250px;   box-shadow: -1px -1px 100px 6px rgba(224,220,224,1);"
+          style="max-width: 20rem; height: 250px;   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.19);"
           title="Landskap" class="backgroundImgTwo"> 
         </b-card>
       </router-link>
@@ -17,13 +17,13 @@
     <b-card-group deck style="margin: 20px; text-align: right; justify-content: center;">
       <router-link to="/Macro">
         <b-card
-          style="max-width: 20rem; height: 250px;  box-shadow: -1px -1px 100px 6px rgba(97,97,97,0.76); "
+          style="max-width: 20rem; height: 250px;  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.19); "
           title="Macro" class="backgroundImgThree">
         </b-card>
       </router-link>
       <router-link to="Event">
         <b-card
-          style="max-width: 20rem; height: 250px;  box-shadow:  -1px -1px 100px 6px rgba(168,168,168,1);"
+          style="max-width: 20rem; height: 250px;  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8), 0 24px 80px 0 rgba(0, 0, 0, 0.19);"
           title="Evenemang" class="backgroundImgFour"> 
         </b-card>
       </router-link>
