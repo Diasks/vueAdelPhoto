@@ -24,7 +24,7 @@
 
 <style>
   img {
-    width: 50px; 
+    width: 60px; 
     margin-right: 30px;
   }
 

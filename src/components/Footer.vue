@@ -36,7 +36,7 @@
   }
 
   .text {
-     text-shadow: 2px 1px 2px #424239, 0 0 2em black, 0 0 0.5em black;
+     text-shadow: 1px 1px 1px #424239, 0 0 2em black, 0 0 0.3em black;
     margin: 5px;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif; 

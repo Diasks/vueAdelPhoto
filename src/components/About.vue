@@ -23,6 +23,9 @@ export default {
 <style>
 .styledTitle {
   font-family: 'Montserrat';
+  color:  #e3ddcd;
+  margin: 30px;
+  margin-top: 40px;
 }
 
 .jumboTrans {
@@ -31,12 +34,14 @@ export default {
 }
 
 .paragraphSize {
-  width: 30%;
+  width: 18%;
+  margin: 30px;
 }
 
 .styledParagraph {
   font-family: 'Montserrat';
-  font-style: italic;
   font-size: 16px;
+  color:  #e3ddcd;
 }
 </style>
+
